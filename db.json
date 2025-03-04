@@ -1,43 +1,49 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Ao nam",
-        "date": "01/03/2024",
-        "quantity": 50,
-        "categoryId": 1
-      },
-      {
-        "id": 2,
-        "name": "Quan skinny nu",
-        "date": "15/02/2024",
-        "quantity": 30,
-        "categoryId": 2
-      },
-      {
-        "id": 3,
-        "name": "Ao thuy quan luc chien",
-        "date": "15/02/2024",
-        "quantity": 30,
-        "categoryId": 1
-      },
-      {
-        "id": 4,
-        "name": "Quan thuy quan luc chien",
-        "date": "15/02/2024",
-        "quantity": 30,
-        "categoryId": 2
-      },
-      {
-        "id": 5,
-        "name": "Ao nguc nu",
-        "date": "15/02/2024",
-        "quantity": 30,
-        "categoryId": 1
-      }
-    ],
-    "categories": [
-      { "id": 1, "name": "Ao" },
-      { "id": 2, "name": "Quan" }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "Ao nam",
+      "date": "01/03/2024",
+      "quantity": 50,
+      "categoryId": 1
+    },
+    {
+      "id": "2",
+      "name": "Quan skinny nu ",
+      "date": "2025-03-04",
+      "quantity": "5",
+      "categoryId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Ao thuy quan luc chien 2",
+      "date": "2025-03-03",
+      "quantity": "300",
+      "categoryId": 1
+    },
+    {
+      "id": "4",
+      "name": "Quan thuy quan luc chien",
+      "date": "15/02/2024",
+      "quantity": 30,
+      "categoryId": 2
+    },
+    {
+      "id": "5",
+      "name": "Ao nguc nu",
+      "date": "15/02/2024",
+      "quantity": 30,
+      "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Ao"
+    },
+    {
+      "id": "2",
+      "name": "Quan"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductList from "./components/ProductList";
-import ProductForm from "./components/ProductForm";
-
+import EditProduct from "./pages/EditProduct";
+import "./styles/style.css"
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<ProductList />} />
-        <Route path="/edit/:id" element={<ProductForm />} />
+        <Route path="/edit/:id" element={<EditProduct />} />
       </Routes>
     </Router>
   );
